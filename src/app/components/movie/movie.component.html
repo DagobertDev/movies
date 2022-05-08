@@ -1,0 +1,15 @@
+<p *ngIf="loading">
+  Loading...
+</p>
+<div *ngIf="!loading">
+  <div *ngIf="movie">
+    <p>
+      {{movie.name}}
+    </p>
+  </div>
+  <div *ngIf="!movie">
+    <p>
+      Movie could not be found.
+    </p>
+  </div>
+</div>
