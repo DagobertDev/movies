@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://movie-api.davidmannes.de',
+  apiUrl: 'https://gzbxeakyoyerfcnbesnn.azurewebsites.net',
 };
