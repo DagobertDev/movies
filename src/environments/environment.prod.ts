@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://gzbxeakyoyerfcnbesnn.azurewebsites.net',
+  apiUrl: 'https://movie-api4354475.azurewebsites.net',
 };
