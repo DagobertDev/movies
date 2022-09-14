@@ -1,0 +1,2 @@
+<button [routerLink]="['login']" *ngIf="!signedIn">Login</button>
+<button (click)="signOut()" *ngIf="signedIn">Logout</button>

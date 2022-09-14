@@ -2,6 +2,7 @@
   Loading...
 </p>
 <div *ngIf="!loading">
+  <app-nav-bar></app-nav-bar>
   <ul *ngFor="let movie of movies">
     <li>
       <a [routerLink]="['movies', movie.id]">{{movie.name}}</a>
